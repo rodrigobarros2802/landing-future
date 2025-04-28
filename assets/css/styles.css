@@ -11,7 +11,9 @@
 /* INÍCIO BODY */
 body {
     background-image: url(../img/design.png);
-    background-size: 85%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 /* FINAL BODY */
 
@@ -70,3 +72,12 @@ body {
     cursor: pointer;
 }
 /* FINAL MENU NAV */
+
+/* INÍCIO DO MAIN */
+.conteudo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+/* FIM DO MAIN */
