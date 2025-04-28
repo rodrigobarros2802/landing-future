@@ -78,9 +78,32 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 30%;
     height: 80%;
     position: absolute;
     padding: 50px;
+}
+
+.conteudo h3 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.conteudo h1 {
+    font-family: 'Viga';
+    text-transform: uppercase;
+    font-size: 170px;
+    color: #ffffff;
+}
+
+.conteudo p {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: normal;
 }
 /* FIM DO MAIN */
