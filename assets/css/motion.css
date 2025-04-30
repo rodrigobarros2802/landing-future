@@ -1,0 +1,125 @@
+/* INÍCIO RESET GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Viga', sans-serif;
+}
+/* FINAL RESET GLOBAL */
+
+/* INÍCIO BODY */
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/motion.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 100px 80px 100px;
+}
+/* FINAL BODY */
+
+/* INÍCIO MENU NAV */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    list-style: none;
+}
+
+.logo img {
+    margin-right: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.nav-link ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    transition-duration: 0.8s;
+}
+
+.search {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.search img {
+    cursor: pointer;
+}
+/* FINAL MENU NAV */
+
+/* INÍCIO DO MAIN */
+.conteudo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    position: absolute;
+}
+
+.conteudo h3 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.conteudo h1 {
+    font-family: 'Viga';
+    text-transform: uppercase;
+    font-size: 170px;
+    color: #ffffff;
+}
+
+.conteudo p {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    width: 70%;
+    line-height: 30px;
+}
+
+.conteudo a {
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.line {
+    padding: 1px;
+    background-color: #ffffff;
+    width: 140px;
+    opacity: 0.5;
+}
+/* FIM DO MAIN */
