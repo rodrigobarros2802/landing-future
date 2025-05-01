@@ -114,6 +114,7 @@ body {
     color: #ffffff;
     font-size: 25px;
     text-decoration: none;
+    transition: 1s;
 }
 
 .line {
